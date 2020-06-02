@@ -30,6 +30,6 @@ public protocol P2: P {}
 extension C: P2 {}
 extension S: P2 {}
 //extension FixedWidthInteger: P2 {}
-extension Numeric: P2 {}
+public extension Numeric: P2 {}
 
 extension P2 {}
